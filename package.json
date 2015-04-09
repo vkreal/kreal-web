@@ -1,0 +1,15 @@
+{
+  "name": "kreal-web",
+  "version": "0.0.0",
+  "description": "kreal-web",
+  "main": "app.js",
+  "author": {
+    "name": "vkreal",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

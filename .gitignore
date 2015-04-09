@@ -1,0 +1,9 @@
+node_modules
+obj
+*.ntvs_analysis.dat
+microservice-intuit-test.njsproj
+*.sln
+.njsproj
+bin
+*.njsproj
+*.config

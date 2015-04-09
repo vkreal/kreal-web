@@ -1,0 +1,73 @@
+﻿doctype html
+html(lang="en")
+  head       
+  meta(charset='utf-8')
+  |         
+  title Making Awesome Apps and Games
+  |         
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  |         
+  meta(name='description', content='')
+  |         
+  meta(name='author', content='')
+  |         
+  link(href='http://fonts.googleapis.com/css?family=Oswald', rel='stylesheet', type='text/css')
+  |         
+  link(href='./bootstrap/css/bootstrap.css', rel='stylesheet')
+  |         
+  link(href='./bootstrap/css/bootstrap-responsive.css', rel='stylesheet')
+  |         
+  style.
+    .marketing-message {
+    margin-top: 100px;
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: inherit;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "Oswald",Arial, sans-serif;
+    text-transform: uppercase;
+    }
+    .marketing-message h1 {
+    color: #7bb932;
+    border-color: #7bb932;
+    text-align: center;
+    font-weight: 400 !important;
+    }
+    .navbar-inverse .navbar-inner {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to bottom, #262626, #262626);
+    }
+    .img-responsive {
+    margin: 0 auto;
+    }
+    .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+  |         
+  body
+    .navbar.navbar-inverse.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.brand(href='#')
+            img(src='logo_v1.png')
+    |     
+    .container
+      .marketing-message
+        h1 Making Awesome apps and games one at a time!
+        |           
+        br
+        |           
+        br
+        |          
+        p Check out latest releases!
+    
+    // Placed at the end of the document so the pages load faster
+    script(src='http://fb.me/react-0.13.1.js')
